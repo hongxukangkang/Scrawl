@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="id_scrawl_glSurfaceView" type="id" />
+    <item name="id_path_glsurfaceview" type="id" />
+    <item name="id_brush_medium" type="id" />
+    <item name="id_brush_large" type="id" />
+    <item name="id_brush_small" type="id" />
+
+    <item name="id_drawLineGLSurfaceView" type="id" />
+    <item name="id_header_layout" type="id" />
+    <item name="id_bottom_layout" type="id" />
+    <item name="id_bottomLayout" type="id" />
+    <item name="id_btn_scrawl" type="id" />
+    <item name="id_img_clear" type="id" />
+    <item name="id_btn_line" type="id" />
+    <item name="id_btn_color" type="id" />
+    <item name="id_btn_dot" type="id" />
+    <item name="clv_scrawl" type="id" />
+    <item name="ibv_save" type="id" />
+    <item name="id_btn_rgb" type="id" />
+
+</resources>

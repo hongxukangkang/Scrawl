@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <!--<LinearLayout-->
+        <!--android:id="@id/id_header_layout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/header_layout_height"-->
+        <!--android:background="@color/pink"-->
+        <!--android:layout_gravity="top">-->
+        <!--<include layout="@layout/header_layout" />-->
+    <!--</LinearLayout>-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.0dp"
+        android:layout_weight="1"
+        android:gravity="center">
+
+        <com.meitu.widgets.SwapScrawlGLSurfaceView
+            android:id="@id/id_scrawl_glSurfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|center_horizontal" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@id/id_bottom_layout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/header_layout_height"
+        android:background="@color/pink"
+        android:layout_gravity="bottom">
+        <include layout="@layout/bottom_layout" />
+    </LinearLayout>
+
+
+</LinearLayout>

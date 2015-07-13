@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/palegoldenrod">
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/ibv_save"
+        android:background="@drawable/save_opengl_img"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@id/id_img_clear"
+        android:background="@drawable/clear_selector"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/imageButton3"
+        android:layout_centerVertical="true" />
+</RelativeLayout>

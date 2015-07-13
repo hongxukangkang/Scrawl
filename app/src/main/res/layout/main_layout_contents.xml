@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_scrawl"
+        android:id="@id/id_btn_scrawl"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/btn_corner_selector" />
+
+    <Button
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_dot"
+        android:id="@id/id_btn_dot"
+        android:layout_below="@id/id_btn_scrawl"
+        android:layout_alignLeft="@id/id_btn_scrawl"
+        android:layout_alignStart="@id/id_btn_scrawl"
+        android:background="@drawable/btn_corner_selector"
+        android:layout_marginTop="@dimen/btn_marginTop" />
+
+    <Button
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="wrap_content"
+        android:text="@string/draw_line"
+        android:id="@id/id_btn_line"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/id_btn_dot"
+        android:background="@drawable/btn_corner_selector"
+        android:layout_marginTop="@dimen/btn_marginTop" />
+
+    <Button
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="wrap_content"
+        android:text="@string/color_line"
+        android:id="@id/id_btn_color"
+        android:layout_below="@id/id_btn_line"
+        android:background="@drawable/btn_corner_selector"
+        android:layout_marginTop="@dimen/btn_marginTop"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button3"
+        android:background="@drawable/btn_corner_selector"
+        android:layout_below="@id/id_btn_color"
+        android:layout_alignRight="@id/id_btn_color"
+        android:layout_alignEnd="@id/id_btn_color"
+        android:layout_marginTop="@dimen/btn_marginTop" />
+
+    <Button
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="wrap_content"
+        android:text="RGB"
+        android:id="@id/id_btn_rgb"
+        android:layout_below="@+id/button3"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3"
+        android:layout_marginTop="@dimen/btn_marginTop"
+        android:background="@drawable/btn_corner_selector" />
+
+</RelativeLayout>

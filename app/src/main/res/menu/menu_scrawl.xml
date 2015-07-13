@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ScrawlActivity"
+
+    >
+    <group
+
+        android:orderInCategory="100"
+        android:menuCategory="container"
+        android:enabled="true"
+        android:checkableBehavior="all">
+        <item
+            android:icon="@color/greenyellow"
+            android:id="@id/id_brush_large"
+            android:title="@string/brush_large"
+            android:orderInCategory="90"
+            app:showAsAction="never" />
+        <item
+            android:id="@id/id_brush_medium"
+            android:title="@string/brush_medium"
+            android:orderInCategory="90"
+            app:showAsAction="never" />
+        <item
+            android:id="@id/id_brush_small"
+            android:title="@string/brush_small"
+            android:orderInCategory="90"
+            app:showAsAction="never" />
+    </group>
+
+</menu>
