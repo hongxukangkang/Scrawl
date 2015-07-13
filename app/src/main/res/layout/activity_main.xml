@@ -11,7 +11,8 @@
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true">
 
-        <include layout="@layout/main_layout_contents" />
+        <include layout="@layout/main_layout_contents"
+            android:id="@+id/" />
     </LinearLayout>
 
 </RelativeLayout>
