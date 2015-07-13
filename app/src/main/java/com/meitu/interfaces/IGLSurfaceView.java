@@ -1,4 +1,4 @@
-package com.meitu;
+package com.meitu.interfaces;
 
 /**
  * Created by mtdiannao on 2015/7/10.

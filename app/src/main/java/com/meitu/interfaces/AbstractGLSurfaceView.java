@@ -1,4 +1,4 @@
-package com.meitu;
+package com.meitu.interfaces;
 
 import android.content.Context;
 
