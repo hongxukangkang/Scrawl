@@ -18,5 +18,6 @@
     <item name="clv_scrawl" type="id" />
     <item name="ibv_save" type="id" />
     <item name="id_btn_rgb" type="id" />
+    <item name="btn_ctnResolver" type="id" />
 
 </resources>

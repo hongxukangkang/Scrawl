@@ -20,7 +20,6 @@
     <string name="title_activity_rgbatexture">RGBATextureActivity</string>
     <string name="openning_push_service">正在开启报警推送服务</string>
     <string name="closing_push_service">正在关闭报警推送服务</string>
-
-
+    <string name="title_activity_contente_resolver">ContenteResolverActivity</string>
 
 </resources>

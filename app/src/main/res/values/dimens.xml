@@ -6,9 +6,10 @@
     <dimen name="bottom_layout_height">65dp</dimen>
     <dimen name="header_layout_height">55dp</dimen>
 
+
     <dimen name="btn_corner">5dp</dimen>
     <dimen name="btn_width">115dp</dimen>
     <dimen name="btn_padding">10dp</dimen>
     <dimen name="btn_marginTop">35dp</dimen>
-
+    <dimen name="main_marginTopBottom">15dp</dimen>
 </resources>

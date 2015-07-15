@@ -17,6 +17,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
     private Button btn_scrawl;
     private Button btn_drawLine;
     private Button btn_selfLayout;
+    private Button btn_ctnResolver;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,6 +36,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         btn_scrawl = (Button) findViewById(R.id.id_btn_scrawl);
         btn_drawLine = (Button) findViewById(R.id.id_btn_line);
         btn_selfLayout = (Button) findViewById(R.id.button3);
+        btn_ctnResolver = (Button) findViewById(R.id.btn_ctnResolver);
     }
 
     private void setListenersForBtn() {
@@ -44,6 +46,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         btn_scrawl.setOnClickListener(this);
         btn_drawLine.setOnClickListener(this);
         btn_selfLayout.setOnClickListener(this);
+        btn_ctnResolver.setOnClickListener(this);
     }
 
     @Override
@@ -67,6 +70,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
                 break;
             case R.id.id_btn_rgb:
                 intent.setClass(ctx, RGBATextureActivity.class);
+                break;
+            case R.id.btn_ctnResolver:
+                intent.setClass(ctx, ContenteResolverActivity.class);
                 break;
         }
         startActivity(intent);

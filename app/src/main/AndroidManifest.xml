@@ -40,6 +40,10 @@
             android:name=".RGBATextureActivity"
             android:label="@string/title_activity_rgbatexture" >
         </activity>
+        <activity
+            android:name=".ContenteResolverActivity"
+            android:label="@string/title_activity_contente_resolver" >
+        </activity>
     </application>
 
 </manifest>

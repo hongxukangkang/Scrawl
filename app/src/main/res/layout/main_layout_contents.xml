@@ -65,4 +65,15 @@
         android:layout_marginTop="@dimen/btn_marginTop"
         android:background="@drawable/btn_corner_selector" />
 
+    <Button
+        android:layout_width="@dimen/btn_width"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_contentResolver"
+        android:id="@+id/button"
+        android:layout_below="@id/id_btn_rgb"
+        android:layout_alignLeft="@id/id_btn_color"
+        android:layout_alignStart="@id/id_btn_color"
+        android:layout_marginTop="@dimen/btn_marginTop"
+        android:background="@drawable/btn_corner_selector" />
+
 </RelativeLayout>

@@ -5,14 +5,23 @@
     tools:context="com.meitu.android.MainActivity"
     android:background="@color/palegoldenrod">
 
-    <LinearLayout
-        android:layout_width="wrap_content"
+    <ScrollView
+
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true">
 
-        <include layout="@layout/main_layout_contents"
-            android:id="@+id/" />
-    </LinearLayout>
+        <LinearLayout
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/main_marginTopBottom"
+            android:layout_marginBottom="@dimen/main_marginTopBottom">
+
+            <include layout="@layout/main_layout_contents" />
+        </LinearLayout>
+    </ScrollView>
+
 
 </RelativeLayout>
